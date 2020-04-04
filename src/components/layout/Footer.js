@@ -11,13 +11,13 @@ function Footer() {
               Fettoukh Mohamed Amine
             </span>
             , Using <i className="fab fa-react" /> React JS &amp; Redux JS
-            integrated with external movies data API
+            integrated with external movies data API : 
             <a
               href="http://www.omdbapi.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              OMDB
+              IMDB
             </a>
           </div>
         </div>

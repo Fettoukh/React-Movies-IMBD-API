@@ -14,7 +14,10 @@ export class MoviesContainer extends Component {
         ? movies.Search.map((movie, index) => (
             <MovieCard key={index} movie={movie} />
           ))
-        : null;
+        : movies.Response === 'False'
+          ? <h1>No movie found with that name !!!</h1>
+          : null
+           
     return <div className="row">{content}</div>;
   }
 }

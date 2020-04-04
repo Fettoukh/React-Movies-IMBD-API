@@ -44,6 +44,9 @@ export class Movie extends Component {
               <li className="list-group-item">
                 <strong>Actors:</strong> {movie.Actors}
               </li>
+              <li className="list-group-item">
+                <strong>Production:</strong> {movie.Production}
+              </li>
             </ul>
           </div>
         </div>
